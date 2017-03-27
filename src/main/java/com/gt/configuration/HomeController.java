@@ -25,6 +25,6 @@ public class HomeController {
 
     @RequestMapping("/home")
     public String hello(){
-        return "Hello World"+bookAuthor+","+bookName;
+        return "Spring Boot is OK Hello World"+bookAuthor+","+bookName;
     }
 }
